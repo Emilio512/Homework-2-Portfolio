@@ -1,7 +1,6 @@
-
 * {
-  margin:0;
-  padding:0;  
+  margin: 0;
+  padding: 0;
 }
 
 /* Element Selectors */
@@ -9,11 +8,18 @@ body {
   position: relative;
   font-family: 'Fjalla One', sans-serif;
   color: #4F4846;
-  
-  
 }
-#contact{ 
-color: aqua;
+
+
+.flexcontainer {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+#contact {
+  color: aqua;
 }
 
 .align {
@@ -22,26 +28,26 @@ color: aqua;
   justify-content: center;
   padding-left: 75px;
   margin: 40px;
-  
-  
+
+
 }
 
 h1,
 h2 {
-  
+
   width: 600px;
-  
+
 }
 
 main {
-  background:url(https://i2.wp.com/files.123freevectors.com/wp-content/original/14862-black-turquoise-background.jpg?w=600);
+  background: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/14862-black-turquoise-background.jpg?w=600);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0;
 }
 
 
-  
+
 
 
 li {
@@ -58,139 +64,154 @@ li {
   display: inline-block;
   background-position: top;
   transition: ease-in-out 8s;
-  }
+}
 
-  #link:hover{
+#link:hover {
 
-    background-position: bottom;
-  }
+  background-position: bottom;
+}
 
-  #link2 {
-    background-image: url(assets/images/toro.JPG);
+#link2 {
+  background-image: url(assets/images/toro.JPG);
   background-size: cover;
   height: 180px;
   width: 290px;
   display: inline-block;
   background-position: top;
   transition: ease-in-out 8s;
-  }
+}
 
-  #link2:hover {
-background-position: bottom;
+#link2:hover {
+  background-position: bottom;
 
-  }
-  #link3 {  background-image: url(assets/images/blanca.jpg);
-    background-size: cover;
-    height: 180px;
-    width: 290px;
-    display: inline-block;
-    background-position: top;
-    transition: ease-in-out 8s; }
+}
 
-    #link3:hover {
-      background-position: bottom;
-    }
+#link3 {
+  background-image: url(assets/images/blanca.jpg);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+}
 
-    #link4 {background-image: url(assets/images/blancatoro.JPG);
-      background-size: cover;
-      height: 180px;
-      width: 290px;
-      display: inline-block;
-      background-position: top;
-      transition: ease-in-out 8s;
-    }
-    #link4:hover{
+#link3:hover {
+  background-position: bottom;
+}
 
-      background-position: bottom;
-    }
-    #link5 {
-      background-image: url(assets/images/toro2.JPG);
-      background-size: cover;
-      height: 180px;
-      width: 290px;
-      display: inline-block;
-      background-position: top;
-      transition: ease-in-out 8s;
+#link4 {
+  background-image: url(assets/images/blancatoro.JPG);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+}
 
-    }
-    #link5:hover{
+#link4:hover {
 
-      background-position: bottom;
-    }
-    #link6 {
-      background-image: url(assets/images/torosun.jpg);
-      background-size: cover;
-      height: 180px;
-      width: 290px;
-      display: inline-block;
-      background-position: top;
-      transition: ease-in-out 8s;
+  background-position: bottom;
+}
 
-    }
-    #link6:hover{
+#link5 {
+  background-image: url(assets/images/toro2.JPG);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
 
-      background-position: bottom;
-    }
+}
+
+#link5:hover {
+
+  background-position: bottom;
+}
+
+#link6 {
+  background-image: url(assets/images/torosun.jpg);
+  background-size: cover;
+  height: 180px;
+  width: 290px;
+  display: inline-block;
+  background-position: top;
+  transition: ease-in-out 8s;
+
+}
+
+#link6:hover {
+
+  background-position: bottom;
+}
 
 
-#box-1{
- height: 190px;
-  width: 300px;
-  border: 5px solid black;
-  padding: 0px;
-  margin: 0px;}
-
-#box-2{
-  height: 190px;
-  width: 300px;
-  border: 5px solid black;
-  padding: 0px;
-  margin: 0px;} 
-
-#box-3{
-  height: 190px;
-  width: 300px;
-  border: 5px solid black;
-  padding: 0px;
-  margin: 0px; }
-
-#box-4{
-
-  height: 190px;
-  width: 300px;
-  border: 5px solid black;
-  padding: 0px;
-  margin: 0px; }
-
-#box-5{
+#box-1 {
   height: 190px;
   width: 300px;
   border: 5px solid black;
   padding: 0px;
   margin: 0px;
 }
-#box-6{
+
+#box-2 {
   height: 190px;
   width: 300px;
   border: 5px solid black;
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+}
+
+#box-3 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-4 {
+
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-5 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#box-6 {
+  height: 190px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 0px;
+  margin: 0px;
+}
 
 .butt {
-  
+
   display: flex;
   flex-direction: row;
- justify-content: center;
+  justify-content: center;
   flex-wrap: wrap;
-  
-  }
 
-  
+}
+
+
 
 a {
   text-decoration: none;
   color: aqua;
-  
+
 }
 
 header {
@@ -200,20 +221,20 @@ header {
   background-color: black;
   position: relative;
   font-size: 25px;
-   border-bottom: 50px solid #4F4846;
-  
+  border-bottom: 50px solid #4F4846;
+
 }
 
-  
 
 
-#leftheading{
+
+#leftheading {
   display: inline-block;
   justify-content: center;
   align-content: center;
- 
 
-  
+
+
 }
 
 footer {
@@ -222,20 +243,27 @@ footer {
   margin-top: 0px;
   bottom: 0px;
   border-top: 30px solid #4F4846;
-background-color: black;
-     
+  background-color: black;
+
 }
 
 figure {
   margin-bottom: 40px;
 }
 
+#rasta {
+ border-radius: 50px;
+  height: 400px;
+  width: 400px;
+}
+
 img {
   display: block;
   margin: 30px auto;
 }
+
 .meimage {
-display: inline-block;
+  display: inline-block;
   width: 250px;
   height: 270px;
 
@@ -246,8 +274,8 @@ section {
 
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  }
-  
+}
+
 
 form {
   /* Center the form on the page */
@@ -262,8 +290,8 @@ label {
   display: inline-block;
   width: 100px;
 }
-  
-input, 
+
+input,
 textarea {
   box-sizing: border-box;
   width: 300px;
@@ -274,14 +302,14 @@ textarea {
   vertical-align: top;
   height: 60px;
 }
-  
+
 button {
   height: 40px;
   width: 120px;
   background-color: #4F4846;
   color: #FDF8F5;
 }
- 
+
 /* Class Selectors */
 .text-center {
 
@@ -293,10 +321,10 @@ button {
   position: relative;
   bottom: 190px;
 
-  
-
-  
-}
-
+  @media screen and (min-width: 993px) {
+    body 
+      flex-direction: row ;
+    }
+  }
 
 
